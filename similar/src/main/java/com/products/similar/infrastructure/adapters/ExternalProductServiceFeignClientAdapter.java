@@ -13,5 +13,5 @@ public interface ExternalProductServiceFeignClientAdapter extends ExternalProduc
     Product getProductDetails(@PathVariable("productId") String productId);
 
     @GetMapping("/{productId}/similarids")
-    List<String> getSimilarIds(@PathVariable("productId") String productId);
+    List<String> getSimilarProductIds(@PathVariable("productId") String productId);
 }

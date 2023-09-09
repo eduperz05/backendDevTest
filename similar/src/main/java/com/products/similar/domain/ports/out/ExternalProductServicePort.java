@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface ExternalProductServicePort {
     Product getProductDetails(String id);
-    List<String> getSimilarIds(String id);
+    List<String> getSimilarProductIds(String id);
 }
