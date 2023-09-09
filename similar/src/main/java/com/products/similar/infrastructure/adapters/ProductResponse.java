@@ -1,4 +1,4 @@
-package com.products.similar.infrastructure.adapters.response;
+package com.products.similar.infrastructure.adapters;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

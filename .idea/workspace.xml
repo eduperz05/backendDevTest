@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb532b2-e105-42db-86fb-d2ef9704b743" name="Changes" comment=":heavy_plus_sign: add Spring project to fork">
-      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/response/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/clients/ProductFeingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/similar/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/out/ExternalProductServicePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ExternalProductServiceFeignClientAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/similar/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/SimilarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/SimilarApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/response/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/clients/ProductFeingClient.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
