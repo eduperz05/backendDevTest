@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb532b2-e105-42db-86fb-d2ef9704b743" name="Changes" comment=":heavy_plus_sign: add Spring project to fork">
-      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetSimilarProductsUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetProductDetailsUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetSimilarProductIdsUseCaseImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetSimilarProductsUseCaseImplUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/GetSimilarProductIdsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/GetSimilarProductIdsUseCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
