@@ -1,0 +1,4 @@
+client:
+  product:
+    url: http://localhost:3001/product
+

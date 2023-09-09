@@ -1,4 +1,4 @@
-package com.products.similar.domain;
+package com.products.similar.domain.models;
 
 import lombok.Data;
 
