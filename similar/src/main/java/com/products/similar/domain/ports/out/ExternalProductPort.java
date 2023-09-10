@@ -4,7 +4,7 @@ import com.products.similar.domain.models.Product;
 
 import java.util.List;
 
-public interface ExternalProductServicePort {
+public interface ExternalProductPort {
     Product getProductDetails(String id);
     List<String> getSimilarProductIds(String id);
 }

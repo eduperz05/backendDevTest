@@ -1,6 +1,6 @@
 package com.products.similar.infrastructure.adapters;
 import com.products.similar.domain.models.Product;
-import com.products.similar.domain.ports.out.ExternalProductServicePort;
+import com.products.similar.domain.ports.out.ExternalProductPort;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 
 @FeignClient(name = "product", url = "${client.product.url}")
-public interface ExternalProductServiceFeignClientAdapter extends ExternalProductServicePort {
+public interface ExternalProductFeignClientAdapter extends ExternalProductPort {
     @GetMapping("/{productId}")
     Product getProductDetails(@PathVariable("productId") String productId);
 

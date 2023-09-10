@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb532b2-e105-42db-86fb-d2ef9704b743" name="Changes" comment=":heavy_plus_sign: add Spring project to fork">
-      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetProductDetailsUseCaseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetSimilarProductIdsUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/mapper/productMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecase/SimilarProductsUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/SimilarProductsPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/configuration/MapperConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/controllers/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetSimilarProductsUseCaseImplUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/GetSimilarProductIdsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/GetSimilarProductIdsUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/similar/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetProductDetailsUseCaseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecases/GetSimilarProductIdsUseCaseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/GetProductDetailsUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/in/GetSimilarProductIdsUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/out/ExternalProductServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/domain/ports/out/ExternalProductPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ExternalProductServiceFeignClientAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ExternalProductFeignClientAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +111,7 @@
       <workItem from="1694269663761" duration="2269000" />
       <workItem from="1694274348405" duration="257000" />
       <workItem from="1694274659866" duration="428000" />
-      <workItem from="1694275232797" duration="5375000" />
+      <workItem from="1694275232797" duration="7371000" />
     </task>
     <task id="LOCAL-00001" summary=":heavy_plus_sign: add Spring project to fork">
       <option name="closed" value="true" />
