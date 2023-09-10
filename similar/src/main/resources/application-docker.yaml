@@ -1,0 +1,18 @@
+server:
+  address: 0.0.0.0
+  port: 5000
+#  servlet:
+#    context-path: /product
+
+spring:
+  application:
+    name: similar-products-service
+  cloud:
+    openfeign:
+      client:
+        config:
+          product:
+            url: ${URL_SIMULADO:http://localhost:3001/product}
+            connectTimeout: 5000
+            readTimeout: 5000
+            loggerLevel: full

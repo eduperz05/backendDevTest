@@ -23,6 +23,16 @@ services:
     volumes:
       - ./shared/simulado:/app
     command: ./bin/simulado -f /app/mocks.json
+  similar:
+    build:
+      context: ./similar
+      dockerfile: Dockerfile
+    image: similar-products:latest
+    environment:
+        - SPRING_PROFILES_ACTIVE=docker
+        - URL_SIMULADO=http://host.docker.internal:3001/product
+    ports:
+      - "5000:5000"
   k6:
     image: loadimpact/k6:0.28.0
     ports:
