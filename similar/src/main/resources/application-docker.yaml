@@ -14,5 +14,5 @@ spring:
           product:
             url: ${URL_SIMULADO:http://localhost:3001/product}
             connectTimeout: 5000
-            readTimeout: 5000
+            readTimeout: 10000
             loggerLevel: full
