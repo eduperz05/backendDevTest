@@ -4,11 +4,13 @@ import com.products.similar.domain.models.Product;
 import com.products.similar.domain.ports.in.SimilarProductsPort;
 import com.products.similar.domain.ports.out.ExternalProductPort;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+@Component
 @AllArgsConstructor
 public class SimilarProductsUseCase implements SimilarProductsPort {
 

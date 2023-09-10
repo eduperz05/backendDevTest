@@ -1,6 +1,7 @@
 package com.products.similar.infrastructure.controllers;
 
 
+import com.products.similar.application.dto.ProductDTO;
 import com.products.similar.application.services.ProductService;
 import com.products.similar.domain.models.Product;
 import lombok.AllArgsConstructor;
@@ -20,14 +21,13 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping("/{productId}/similar")
-    public ResponseEntity<List<Product>> getSimilarProducts(@PathVariable String productId){
-        List<Product> similarProducts = productService.getSimilarProducts(productId);
+    public ResponseEntity<List<ProductDTO>> getSimilarProducts(@PathVariable String productId){
+        List<ProductDTO> similarProducts = productService.getSimilarProducts(productId);
         if(similarProducts.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(similarProducts);
     }
-
 }
 
 

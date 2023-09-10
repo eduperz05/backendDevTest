@@ -1,4 +1,17 @@
-client:
-  product:
-    url: http://localhost:3001/product
+server:
+  port: 5000
+  servlet:
+    context-path: /product
 
+spring:
+  application:
+    name: similar-products-service
+  cloud:
+    openfeign:
+      client:
+        config:
+          product:
+            url: http://localhost:3001/
+            connectTimeout: 5000
+            readTimeout: 5000
+            loggerLevel: full
