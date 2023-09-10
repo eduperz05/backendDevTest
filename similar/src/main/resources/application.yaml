@@ -1,7 +1,7 @@
 server:
   port: 5000
-  servlet:
-    context-path: /product
+#  servlet:
+#    context-path: /product
 
 spring:
   application:
@@ -11,7 +11,7 @@ spring:
       client:
         config:
           product:
-            url: http://localhost:3001/
+            url: http://localhost:3001/product
             connectTimeout: 5000
             readTimeout: 5000
             loggerLevel: full

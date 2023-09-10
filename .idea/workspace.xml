@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb532b2-e105-42db-86fb-d2ef9704b743" name="Changes" comment=":heavy_plus_sign: add Spring project to fork">
-      <change afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/similar/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/mapper/productMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecase/SimilarProductsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/usecase/SimilarProductsUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ExternalProductFeignClientAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductFeignClientAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductFeignClientAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductFeignClientAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/similar/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,19 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="backendDevTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="backendDevTest" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="SwaggerCodegen">
       <option name="customTemplatesPath" value="" />
       <option name="generateToPath" value="C:\Users\eduar\gen" />
@@ -106,6 +91,10 @@
       <workItem from="1694274348405" duration="257000" />
       <workItem from="1694274659866" duration="428000" />
       <workItem from="1694275232797" duration="7375000" />
+      <workItem from="1694343948516" duration="6000" />
+      <workItem from="1694343975830" duration="15000" />
+      <workItem from="1694345641555" duration="24000" />
+      <workItem from="1694346593510" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary=":heavy_plus_sign: add Spring project to fork">
       <option name="closed" value="true" />

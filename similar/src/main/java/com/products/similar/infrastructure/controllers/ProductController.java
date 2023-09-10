@@ -3,7 +3,6 @@ package com.products.similar.infrastructure.controllers;
 
 import com.products.similar.application.dto.ProductDTO;
 import com.products.similar.application.services.ProductService;
-import com.products.similar.domain.models.Product;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
