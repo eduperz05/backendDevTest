@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bb532b2-e105-42db-86fb-d2ef9704b743" name="Changes" comment=":heavy_plus_sign: add Spring project to fork">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/similar/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/application/mapper/productMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductFeignClientAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/adapters/ProductFeignClientAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/java/com/products/similar/infrastructure/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/similar/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,7 @@
       <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
       <option name="jdkPath" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\jbr\bin\java.exe" />
       <option name="language" value="kotlin" />
-      <option name="specificationPath" value="\\wsl$\Ubuntu\home\edu\workTests\backendDevTest\similarProducts.yaml" />
+      <option name="specificationPath" value="\\wsl.localhost\Ubuntu\home\edu\workTests\backendDevTest\similarProducts.yaml" />
       <method v="2" />
     </configuration>
   </component>
@@ -95,6 +89,7 @@
       <workItem from="1694343975830" duration="15000" />
       <workItem from="1694345641555" duration="24000" />
       <workItem from="1694346593510" duration="145000" />
+      <workItem from="1694447427953" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary=":heavy_plus_sign: add Spring project to fork">
       <option name="closed" value="true" />
