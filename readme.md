@@ -9,12 +9,19 @@ To see the rest of the full Test Statement you can go check [Here](https://githu
 
 I developed a new microservice api with hexagonal architecture that offers a new feature that returns a list of products with detaills given a product id.
 
+#### Build and run
 The product is integrated with the resources given with the test in docker, so you just need to up the compose:
 ```console
-docker-compose up -d simulado influxdb grafana similar
+docker-compose up --build -d simulado influxdb grafana similar
 ```
 
-After code is running, you can check the API Doc at [http://localhost:8080/api-docs.yaml](http://localhost:5000/api-docs.yaml).
+After code is running, you can check the API Doc at:
+
+Html: http://localhost:8080/swagger-ui/index.html
+
+Yaml: http://localhost:5000/v3/api-docs
+
+#### Test and Performance
 
 To run the tests and see the results follow the given steps:
 ```console
