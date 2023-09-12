@@ -1,4 +1,4 @@
-package com.products.similar.infrastructure.repository;
+package com.products.similar.infrastructure.connectors;
 
 import com.products.similar.application.mapper.ProductMapper;
 import com.products.similar.domain.models.Product;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @Repository
 @AllArgsConstructor
-public class ProductRepository implements ExternalProductPort {
+public class ProductConnector implements ExternalProductPort {
 
     private final ProductFeignClientAdapter productFeignClientAdapter;
 
