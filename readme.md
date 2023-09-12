@@ -29,3 +29,14 @@ docker-compose run --rm k6 run scripts/test.js
 ```
 
 Browse http://localhost:3000/d/Le2Ku9NMk/k6-performance-test to view the results.
+
+
+#### Thought process
+
+I started by reading the test statement and the contract, then I started to think about the architecture as I've decided to work with **_java 17_** and **_springboot3_** since I  actually work with them. I've decided to use **_hexagonal architecture_** because the test statement of the test was work with clean architectures, I'm not working with Hexagonal architecture for a long time, so I decided to use this as a challenge to improve my skills and refresh my knowledge.
+
+I started by working on the domain layer, made the model of the products and the contract (ports) and then from here jumped to the adapter to connect with the foreign microservice given, after connection was coded, I followed and inverse path of develop until reach the endpoint for the similar products. After the endpoint was done, I started to work on the error handling and some unit and integration tests and logs.
+
+I've never worked with k6 so I focused on trying my code to overcome the performance tests. I noted that the code is still far from being optimal and I still can do a lot of improvements if we talk about performance, but I think it's a good start. Implementing reactive programming with spring webflux could be a good improvement, using resilience4j to handle the circuit breaker pattern could be another one and adding a cache layer could be another one. I invested some time to investigate about these techs but I decided to not implement them as I feel like they are mayor changes in the architecture and I should have planned them from the beginning.
+
+My final thoughts are that I enjoyed the process of taking this test, I think I could have done a better job with the performance tests, but I'm happy with the result. I'm also happy with the architecture and the code, I think it's clean, easy to understand and maintain.
