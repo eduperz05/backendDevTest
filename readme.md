@@ -14,7 +14,7 @@ The product is integrated with the resources given with the test in docker, so y
 docker-compose up -d simulado influxdb grafana similar
 ```
 
-After code is running, you can check the API Doc at [http://localhost:8080/api-docs.yaml](http://localhost:8080/api-docs.yaml).
+After code is running, you can check the API Doc at [http://localhost:8080/api-docs.yaml](http://localhost:5000/api-docs.yaml).
 
 To run the tests and see the results follow the given steps:
 ```console
