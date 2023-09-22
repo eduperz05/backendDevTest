@@ -29,15 +29,8 @@ public class ProductController {
                     @ApiResponse(responseCode = "404", description = "Product not found")
             })
     public ResponseEntity<List<ProductDTO>> getSimilarProducts(@PathVariable String productId){
-        try {
-            List<ProductDTO> similarProducts = productService.getSimilarProducts(productId);
-            if(similarProducts.isEmpty()) {
-                return ResponseEntity.notFound().build();
-            }
-            return ResponseEntity.ok(similarProducts);
-        } catch (ProductNotFoundException ex) {
-            return ResponseEntity.notFound().build();
-        }
+        List<ProductDTO> similarProducts = productService.getSimilarProducts(productId);
+        return ResponseEntity.ok(similarProducts);
     }
 }
 
